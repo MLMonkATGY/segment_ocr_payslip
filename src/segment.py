@@ -54,9 +54,12 @@ def segments(imgPath: str, outputBaseDir: str):
         return imgText
 
 
-imgPath = r"/home/alextay96/Desktop/personal_workspace/segment_ocr_payslip/data/3.webp"
-outputBaseDir = (
-    r"/home/alextay96/Desktop/personal_workspace/ocr/ocr_segment/segment_output"
-)
+if __name__ == "__main__":
+    imgPath = (
+        r"/home/alextay96/Desktop/personal_workspace/segment_ocr_payslip/data/3.webp"
+    )
+    outputBaseDir = (
+        r"/home/alextay96/Desktop/personal_workspace/ocr/ocr_segment/segment_output"
+    )
 
-segments(imgPath, outputBaseDir)
+    segments(imgPath, outputBaseDir)
