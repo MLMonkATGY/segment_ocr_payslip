@@ -88,7 +88,7 @@ def simulate_request_remote():
 
 
 def sim_upload():
-    srcDir = "/home/alextay96/Desktop/personal_workspace/segment_ocr_payslip/data/raw_imgs/**.*"
+    srcDir = "./data/raw_imgs/**.*"
     allImgs = glob.glob(srcDir, recursive=True)
     for i in tqdm(allImgs):
         resp = requests.post(

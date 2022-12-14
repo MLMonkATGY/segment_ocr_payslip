@@ -2,3 +2,4 @@ data/
 .vscode/
 output/
 *.pyc
+!/data/raw_imgs/**
