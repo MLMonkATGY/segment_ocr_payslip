@@ -47,17 +47,16 @@ def segments(imgPath: str, outputBaseDir: str):
         filename = "{0}_{1}_{2}_{3}_{4}.png".format(x1, y1, x2, y2, fileId)
         outputFilePath = os.path.join(segmentDir, filename)
         outputFilePath = outputFilePath.replace(" ", "")
+
         imgText = pytesseract.image_to_string(pil_image, lang="eng")
         if len(imgText) > 50:
             continue
-        print(imgText)
-        return imgText
+        tqdm.write(imgText.strip())
+    return imgText
 
 
 if __name__ == "__main__":
-    imgPath = (
-        r"/home/alextay96/Desktop/personal_workspace/segment_ocr_payslip/data/3.webp"
-    )
+    imgPath = r"/home/alextay96/Desktop/personal_workspace/segment_ocr_payslip/data/raw_imgs/38.PNG"
     outputBaseDir = (
         r"/home/alextay96/Desktop/personal_workspace/ocr/ocr_segment/segment_output"
     )
