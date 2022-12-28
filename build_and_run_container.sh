@@ -1,1 +1,1 @@
-docker build -t payslip . && docker run -p 8000:8000 payslip
+docker build -t payslip . --no-cache && docker run -p 8000:8000 payslip
