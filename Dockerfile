@@ -2,9 +2,7 @@ FROM ubuntu:focal-20221130
 RUN apt update
 RUN apt install git -y
 RUN git clone https://github.com/MLMonkATGY/segment_ocr_payslip.git
-RUN ls
 WORKDIR /segment_ocr_payslip
-RUN ls
 RUN apt install python-is-python3 -y
 RUN apt install python3-pip -y
 RUN pip install -r requirements.txt
