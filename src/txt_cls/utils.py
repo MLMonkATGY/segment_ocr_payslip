@@ -19,10 +19,10 @@ class Preprocessing:
 
     def load_data(self):
         self.trainDf = pd.read_csv(
-            "/home/alextay96/Desktop/personal_workspace/segment_ocr_payslip/data/train_test/train.csv"
+            "/home/alextay96/Desktop/all_workspace/personal_workspace/segment_ocr_payslip/data/train_test/train.csv"
         )
         self.evalDf = pd.read_csv(
-            "/home/alextay96/Desktop/personal_workspace/segment_ocr_payslip/data/train_test/eval.csv"
+            "/home/alextay96/Desktop/all_workspace/personal_workspace/segment_ocr_payslip/data/train_test/eval.csv"
         )
         self.x_train = self.trainDf["text"]
         self.y_train = self.trainDf["label_id"]
@@ -33,7 +33,9 @@ class Preprocessing:
         )
 
     def prepare_tokens(self):
-        self.tokens = Tokenizer(num_words=self.max_words)
+        self.tokens = Tokenizer(
+            num_words=self.max_words, filters="!#$%&()*+,:;<=>?@[\\]^_`{|}~"
+        )
         self.tokens.fit_on_texts(self.x_train)
         with open("./tokenizer.txt", "w") as f:
             f.write(self.tokens.to_json())

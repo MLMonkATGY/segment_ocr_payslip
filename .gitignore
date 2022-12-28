@@ -3,3 +3,4 @@ data/
 output/
 *.pyc
 !/data/raw_imgs/**
+*.sql

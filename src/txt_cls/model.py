@@ -22,7 +22,7 @@ class TweetClassifier(nn.Module):
             batch_first=True,
         )
         self.fc1 = nn.Linear(in_features=self.hidden_dim, out_features=257)
-        self.fc2 = nn.Linear(257, 13)
+        self.fc2 = nn.Linear(257, 11)
         # self.device = device
 
     def forward(self, x):

@@ -62,9 +62,7 @@ class Execute:
         self.batch_size = args.batch_size
         self.device = torch.device("cpu")
         self.model = TweetClassifier(args)
-        self.outputRunDir = (
-            "/home/alextay96/Desktop/personal_workspace/segment_ocr_payslip/output"
-        )
+        self.outputRunDir = "/home/alextay96/Desktop/all_workspace/personal_workspace/segment_ocr_payslip/output"
         os.makedirs(self.outputRunDir, exist_ok=True)
         self.criterion = CrossEntropyLoss(
             weight=torch.tensor(self.preprocessing.clsWeight, dtype=torch.float32).to(
@@ -136,7 +134,7 @@ class Execute:
             predictions = torch.stack(predictions)
             train_accuary = t_accuracy(predictions, trainGt)
             test_accuracy = e_acc(test_predictions, test_gt)
-            if epoch % 20 == 0:
+            if epoch % 50 == 0 or epoch == args.epochs - 1:
                 test_gt_np = test_gt.detach().cpu().numpy()
                 preds = test_predictions.argmax(1)
                 test_predictions_np = preds.detach().cpu().numpy()
@@ -145,7 +143,7 @@ class Execute:
                     test_gt_np,
                     test_predictions_np,
                     normalize="true",
-                    display_labels=list(range(13)),
+                    display_labels=list(range(num_classes)),
                 )
                 plt.savefig(
                     "{0}/balance_norm_e{1}_acc_{2}.pdf".format(
@@ -157,12 +155,10 @@ class Execute:
                     test_gt_np,
                     test_predictions_np,
                     # normalize="false",
-                    display_labels=list(range(13)),
+                    display_labels=list(range(num_classes)),
                 )
                 plt.savefig(
-                    "{0}/balance_abs_e{1}_acc{2}.pdf".format(
-                        self.outputRunDir, epoch, test_accuracy
-                    )
+                    f"{self.outputRunDir}/balance_abs_e{epoch}_acc{test_accuracy}.pdf"
                 )
                 plt.close("all")
             print(
@@ -199,7 +195,7 @@ if __name__ == "__main__":
     with open("./script_model", "wb") as f:
         torch.jit.save(scriptModel, f)
     evalDf = pd.read_csv(
-        "/home/alextay96/Desktop/personal_workspace/segment_ocr_payslip/data/train_test/eval.csv"
+        "/home/alextay96/Desktop/all_workspace/personal_workspace/segment_ocr_payslip/data/train_test/eval.csv"
     )
     clsNameRaw = (
         evalDf[["label", "label_id"]].groupby("label").head(1).reset_index()
