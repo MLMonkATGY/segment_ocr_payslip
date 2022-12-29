@@ -1,0 +1,105 @@
+{
+    "companyName_value": {
+        "precision": 0.9333333333333333,
+        "recall": 0.7,
+        "f1-score": 0.8,
+        "support": 20,
+        "accuracy": 14,
+        "label_id": 0
+    },
+    "companyName_key": {
+        "precision": 0.5957446808510638,
+        "recall": 0.7,
+        "f1-score": 0.6436781609195402,
+        "support": 40,
+        "accuracy": 28,
+        "label_id": 1
+    },
+    "employeeName_key": {
+        "precision": 0,
+        "recall": 0,
+        "f1-score": 0,
+        "support": 21,
+        "accuracy": 0,
+        "label_id": 2
+    },
+    "IC_key": {
+        "precision": 0.8947368421052632,
+        "recall": 0.7727272727272727,
+        "f1-score": 0.8292682926829269,
+        "support": 22,
+        "accuracy": 17,
+        "label_id": 3
+    },
+    "employeeName_value": {
+        "precision": 1,
+        "recall": 0.6428571428571429,
+        "f1-score": 0.782608695652174,
+        "support": 42,
+        "accuracy": 27,
+        "label_id": 4
+    },
+    "payDate_key": {
+        "precision": 0.9130434782608695,
+        "recall": 1,
+        "f1-score": 0.9545454545454545,
+        "support": 21,
+        "accuracy": 21,
+        "label_id": 5
+    },
+    "payDate_value": {
+        "precision": 0.6875,
+        "recall": 0.5238095238095238,
+        "f1-score": 0.5945945945945946,
+        "support": 21,
+        "accuracy": 11,
+        "label_id": 6
+    },
+    "netPay_key": {
+        "precision": 0.9090909090909091,
+        "recall": 1,
+        "f1-score": 0.9523809523809523,
+        "support": 20,
+        "accuracy": 20,
+        "label_id": 7
+    },
+    "netPay_value": {
+        "precision": 0.875,
+        "recall": 0.6363636363636364,
+        "f1-score": 0.7368421052631579,
+        "support": 22,
+        "accuracy": 14,
+        "label_id": 8
+    },
+    "reject": {
+        "precision": 1,
+        "recall": 0.4,
+        "f1-score": 0.5714285714285715,
+        "support": 20,
+        "accuracy": 8,
+        "label_id": 9
+    },
+    "IC_value": {
+        "precision": 0.28205128205128205,
+        "recall": 1,
+        "f1-score": 0.44000000000000006,
+        "support": 22,
+        "accuracy": 22,
+        "label_id": 10
+    },
+    "accuracy": 0.6715867158671587,
+    "macro avg": {
+        "precision": 0.7355000477902475,
+        "recall": 0.6705234159779615,
+        "f1-score": 0.6641224388606701,
+        "support": 271
+    },
+    "weighted avg": {
+        "precision": 0.7432805308392977,
+        "recall": 0.6715867158671587,
+        "f1-score": 0.6706983465576322,
+        "support": 271
+    },
+    "train_loss": 1.5752737522125244,
+    "train_avg_acc": 0.9062792658805847
+}

@@ -16,6 +16,8 @@ def segments(imgPath: str, outputBaseDir: str):
     th, im_th = cv2.threshold(gray, 220, 255, cv2.THRESH_BINARY_INV)
     kernel = np.ones((2, 20), np.uint8)
     dilation = cv2.dilate(im_th, kernel, iterations=1)
+    cv2.imwrite("segmentation_mask.png", dilation)
+
     fileId = imgPath.split(os.path.sep)[-1].split(".")[0]
     filename = imgPath.split("/")[-1]
     output = cv2.connectedComponentsWithStats(dilation, 8, cv2.CV_32S)
@@ -47,7 +49,7 @@ def segments(imgPath: str, outputBaseDir: str):
         filename = "{0}_{1}_{2}_{3}_{4}.png".format(x1, y1, x2, y2, fileId)
         outputFilePath = os.path.join(segmentDir, filename)
         outputFilePath = outputFilePath.replace(" ", "")
-
+        pil_image.save(outputFilePath)
         imgText = pytesseract.image_to_string(pil_image, lang="eng")
         if len(imgText) > 50:
             continue
@@ -56,9 +58,7 @@ def segments(imgPath: str, outputBaseDir: str):
 
 
 if __name__ == "__main__":
-    imgPath = r"/home/alextay96/Desktop/personal_workspace/segment_ocr_payslip/data/raw_imgs/38.PNG"
-    outputBaseDir = (
-        r"/home/alextay96/Desktop/personal_workspace/ocr/ocr_segment/segment_output"
-    )
+    imgPath = r"/home/alextay96/Desktop/all_workspace/personal_workspace/segment_ocr_payslip/data/raw_imgs/2.png"
+    outputBaseDir = r"/home/alextay96/Desktop/all_workspace/personal_workspace/segment_ocr_payslip/data/segment_output"
 
     segments(imgPath, outputBaseDir)

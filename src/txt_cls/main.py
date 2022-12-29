@@ -30,6 +30,7 @@ from torch.nn import CrossEntropyLoss
 from torch.cuda.amp import autocast
 import pandas as pd
 import ujson as json
+from sklearn.metrics import classification_report
 
 
 class DatasetMaper(Dataset):
@@ -78,12 +79,14 @@ class Execute:
         self.preprocessing = Preprocessing(args)
         self.preprocessing.load_data()
         self.preprocessing.prepare_tokens()
-
+        self.clsName = self.preprocessing.clsNames
         raw_x_train = self.preprocessing.x_train
         raw_x_test = self.preprocessing.x_test
 
         self.y_train = self.preprocessing.y_train
         self.y_test = self.preprocessing.y_test
+        print(len(self.y_train))
+        print(len(self.y_test))
 
         self.x_train = self.preprocessing.sequence_to_token(raw_x_train)
         self.x_test = self.preprocessing.sequence_to_token(raw_x_test)
@@ -161,6 +164,28 @@ class Execute:
                     f"{self.outputRunDir}/balance_abs_e{epoch}_acc{test_accuracy}.pdf"
                 )
                 plt.close("all")
+                if epoch == args.epochs - 1:
+                    metricOutput = classification_report(
+                        test_gt_np,
+                        test_predictions_np,
+                        target_names=self.preprocessing.clsNames,
+                        output_dict=True,
+                    )
+                    cm = confusion_matrix(test_gt_np, test_predictions_np)
+                    allAccByPart = cm.diagonal()
+                    metricOutput["train_loss"] = loss.item()
+                    metricOutput["train_avg_acc"] = float(train_accuary.numpy())
+
+                    for i, (k, v) in enumerate(
+                        zip(self.preprocessing.clsNames, allAccByPart)
+                    ):
+                        metricOutput[k]["accuracy"] = float(v)
+                        metricOutput[k]["label_id"] = i
+
+                    print(metricOutput)
+                    with open("./all_metrics.json", "w") as f:
+                        json.dump(metricOutput, f)
+
             print(
                 "Epoch: %d, loss: %.5f, Train accuracy: %.5f, Test accuracy: %.5f"
                 % (epoch + 1, loss.item(), train_accuary, test_accuracy)

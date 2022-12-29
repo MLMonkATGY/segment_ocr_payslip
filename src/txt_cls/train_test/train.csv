@@ -1,0 +1,1068 @@
+,text,label,label_id
+0,MICRO MART,companyName_value,0
+1,SwipeWire,companyName_value,0
+4,SalePush,companyName_value,0
+5,Formonix,companyName_value,0
+6,Branding,companyName_value,0
+8,Seekingon,companyName_value,0
+9,Medicine,companyName_value,0
+10,Crowdstage,companyName_value,0
+11,Hiphonic,companyName_value,0
+12,QuickSpace,companyName_value,0
+13,MetConnect,companyName_value,0
+15,Kiddily,companyName_value,0
+16,Jumpsync,companyName_value,0
+17,Conceptual,companyName_value,0
+18,VisionSwipe,companyName_value,0
+19,Tourish,companyName_value,0
+20,Drivemo,companyName_value,0
+21,Knowza,companyName_value,0
+22,Composey,companyName_value,0
+23,Excursy,companyName_value,0
+26,SiteDept,companyName_value,0
+27,Metricsilo,companyName_value,0
+29,Shipplier PLT,companyName_value,0
+31,GameEight PLT,companyName_value,0
+32,Nutrition PLT,companyName_value,0
+33,TechTack PLT,companyName_value,0
+34,Digimail PLT,companyName_value,0
+35,Flexible Solutions PLT,companyName_value,0
+37,Irreverent Strategies PLT,companyName_value,0
+38,Equitable Partners PLT,companyName_value,0
+39,Coastal Investors PLT,companyName_value,0
+40,Faithful Corp PLT,companyName_value,0
+41,Scrappy Associates PLT,companyName_value,0
+42,Accountable Street PLT,companyName_value,0
+43,Edgy Counsel PLT,companyName_value,0
+44,Flexible Wealth PLT,companyName_value,0
+45,Stunning Corp PLT,companyName_value,0
+46,Obedient Investors PLT,companyName_value,0
+47,Faithful Equity PLT,companyName_value,0
+48,Creative The PLT,companyName_value,0
+50,Youthful Money PLT,companyName_value,0
+51,Neat Services PLT,companyName_value,0
+53,Industrial Services ;,companyName_value,0
+54,Transparent Consulting Sdn Bhd,companyName_value,0
+55,Tactful Investments Sdn Bhd,companyName_value,0
+56,Diplomatic Solutions Sdn Bhd,companyName_value,0
+58,Specialized Solutions Sdn Bhd,companyName_value,0
+59,Light Asset Sdn Bhd,companyName_value,0
+61,Scrappy Partners Sdn Bhd,companyName_value,0
+62,High-Touch Counsel Sdn Bhd,companyName_value,0
+65,Progressive The Sdn Bhd,companyName_value,0
+66,Young Consulting Sdn Bhd,companyName_value,0
+67,Youthful Capital Sdn Bhd,companyName_value,0
+68,Winning Services Sdn Bhd,companyName_value,0
+69,Open Associates Sdn Bhd,companyName_value,0
+70,Majestic Consultants Sdn Bhd,companyName_value,0
+71,Fearless The Sdn Bhd,companyName_value,0
+72,Mature Advisor Sdn Bhd,companyName_value,0
+73,Educational Money Sdn Bhd,companyName_value,0
+74,Quiet Services Sdn Bhd,companyName_value,0
+77,Helpful LP Sdn Bhd,companyName_value,0
+78,Vivid First Sdn Bhd,companyName_value,0
+79,Kind-Hearted Advisers Sdn Bhd,companyName_value,0
+80,Boho Associates Sdn Bhd,companyName_value,0
+81,Self-liking Fund Sdn Bhd,companyName_value,0
+82,Traditional LP Sdn Bhd,companyName_value,0
+83,Engaging Private Sdn Bhd,companyName_value,0
+85,Twisters Gymnastics Academy Sdn Bhd,companyName_value,0
+86,Aims Community College Sdn Bhd,companyName_value,0
+87,Kaboom Fireworks Sdn Bhd,companyName_value,0
+89,Marathon Physical Therapy Sdn Bhd,companyName_value,0
+90,Semicolon Bookstore Sdn Bhd,companyName_value,0
+92,7Eleven Sdn Bhd,companyName_value,0
+93,Hobby Lobby Sdn Bhd,companyName_value,0
+94,The Knickknack Shack Sdn Bhd,companyName_value,0
+95,Los Amigos Taqueria Sdn Bhd,companyName_value,0
+96,Plan4Demand Sdn Bhd,companyName_value,0
+97,Chic Boutique Consignments Sdn Bhd,companyName_value,0
+98,ElemenOPillows,companyName_value,0
+99,company Name,companyName_key,1
+100,company:,companyName_key,1
+101,agency,companyName_key,1
+102,office,companyName_key,1
+103,organization,companyName_key,1
+104,enterprise,companyName_key,1
+107,business,companyName_key,1
+110,office name,companyName_key,1
+111,organization name,companyName_key,1
+113,establishment name,companyName_key,1
+114,corporation name,companyName_key,1
+116,firm name,companyName_key,1
+118,name of company:,companyName_key,1
+119,name of agency,companyName_key,1
+120,name of office,companyName_key,1
+121,name of organization,companyName_key,1
+122,name of enterprise,companyName_key,1
+125,name of business,companyName_key,1
+128,business,companyName_key,1
+130,house,companyName_key,1
+131,concern,companyName_key,1
+133,enterprise,companyName_key,1
+134,outfit,companyName_key,1
+135,syndicate,companyName_key,1
+136,agency,companyName_key,1
+137,bureau,companyName_key,1
+138,institution,companyName_key,1
+139,operation,companyName_key,1
+140,organisationUK,companyName_key,1
+143,chain,companyName_key,1
+144,conglomerate,companyName_key,1
+145,consortium,companyName_key,1
+146,group,companyName_key,1
+147,interest,companyName_key,1
+148,multinational,companyName_key,1
+149,partnership,companyName_key,1
+150,practice,companyName_key,1
+151,venture,companyName_key,1
+152,combine,companyName_key,1
+153,office,companyName_key,1
+154,set-up,companyName_key,1
+155,startup,companyName_key,1
+156,undertaking,companyName_key,1
+157,employer,companyName_key,1
+158,megacorp,companyName_key,1
+159,multiple,companyName_key,1
+160,start-up,companyName_key,1
+161,service,companyName_key,1
+162,provider,companyName_key,1
+164,shop,companyName_key,1
+166,setup,companyName_key,1
+167,department,companyName_key,1
+168,society,companyName_key,1
+169,trust,companyName_key,1
+171,store,companyName_key,1
+172,branch,companyName_key,1
+173,service,companyName_key,1
+175,division,companyName_key,1
+177,federation,companyName_key,1
+179,crew,companyName_key,1
+180,corporate,companyName_key,1
+181,body,companyName_key,1
+182,foundation,companyName_key,1
+183,subdivision,companyName_key,1
+184,station,companyName_key,1
+185,gang,companyName_key,1
+187,empire,companyName_key,1
+188,mob,companyName_key,1
+189,crowd,companyName_key,1
+190,arm,companyName_key,1
+192,parent,companyName_key,1
+194,market,companyName_key,1
+196,section,companyName_key,1
+197,factory,companyName_key,1
+199,affair,companyName_key,1
+200,wing,companyName_key,1
+201,commission,companyName_key,1
+202,board,companyName_key,1
+203,body,companyName_key,1
+204,conglomeration,companyName_key,1
+205,emporium,companyName_key,1
+207,clique,companyName_key,1
+208,manufacturer,companyName_key,1
+209,coterie,companyName_key,1
+210,commercial,companyName_key,1
+211,undertaking,companyName_key,1
+213,agent,companyName_key,1
+215,name of business,companyName_key,1
+218,name of concern,companyName_key,1
+220,name of enterprise,companyName_key,1
+221,name of outfit,companyName_key,1
+222,name of syndicate,companyName_key,1
+223,name of agency,companyName_key,1
+224,name of bureau,companyName_key,1
+225,name of institution,companyName_key,1
+228,name of organizationUS,companyName_key,1
+229,name of association,companyName_key,1
+230,name of chain,companyName_key,1
+231,name of conglomerate,companyName_key,1
+232,name of consortium,companyName_key,1
+233,name of group,companyName_key,1
+234,name of interest,companyName_key,1
+235,name of multinational,companyName_key,1
+236,name of partnership,companyName_key,1
+237,name of practice,companyName_key,1
+238,name of venture,companyName_key,1
+239,name of combine,companyName_key,1
+240,name of office,companyName_key,1
+241,name of set-up,companyName_key,1
+242,name of startup,companyName_key,1
+244,name of employer,companyName_key,1
+245,name of megacorp,companyName_key,1
+246,name of multiple,companyName_key,1
+247,name of start-up,companyName_key,1
+248,name of service,companyName_key,1
+249,name of provider,companyName_key,1
+250,name of cooperative,companyName_key,1
+251,name of shop,companyName_key,1
+253,name of setup,companyName_key,1
+254,name of department,companyName_key,1
+255,name of society,companyName_key,1
+257,name of industry,companyName_key,1
+258,name of store,companyName_key,1
+259,name of branch,companyName_key,1
+260,name of service,companyName_key,1
+262,name of division,companyName_key,1
+263,name of ring,companyName_key,1
+264,name of federation,companyName_key,1
+265,name of guild,companyName_key,1
+266,name of crew,companyName_key,1
+267,name of corporate,companyName_key,1
+268,name of body,companyName_key,1
+269,name of foundation,companyName_key,1
+270,name of subdivision,companyName_key,1
+271,name of station,companyName_key,1
+273,name of bunch,companyName_key,1
+274,name of empire,companyName_key,1
+275,name of mob,companyName_key,1
+276,name of crowd,companyName_key,1
+277,name of arm,companyName_key,1
+280,name of company,companyName_key,1
+281,name of market,companyName_key,1
+282,name of charity,companyName_key,1
+283,name of section,companyName_key,1
+285,name of unit,companyName_key,1
+286,name of affair,companyName_key,1
+287,name of wing,companyName_key,1
+288,name of commission,companyName_key,1
+289,name of board,companyName_key,1
+290,name of body,companyName_key,1
+291,name of conglomeration,companyName_key,1
+293,name of institute,companyName_key,1
+294,name of clique,companyName_key,1
+295,name of manufacturer,companyName_key,1
+296,name of coterie,companyName_key,1
+297,name of commercial,companyName_key,1
+299,name of origination,companyName_key,1
+300,name of agent,companyName_key,1
+302,Last Name,employeeName_key,2
+304,Emp Name,employeeName_key,2
+306,employee's name,employeeName_key,2
+307,Full name,employeeName_key,2
+308,Pay slip for ,employeeName_key,2
+309,employee,employeeName_key,2
+310,pay for ,employeeName_key,2
+311,To,employeeName_key,2
+312,worker,employeeName_key,2
+314,workman,employeeName_key,2
+315,staff member,employeeName_key,2
+316,member of staff,employeeName_key,2
+317,hand,employeeName_key,2
+318,wage-earner,employeeName_key,2
+319,white-collar worker,employeeName_key,2
+320,blue-collar worker,employeeName_key,2
+321,hired hand,employeeName_key,2
+322,job-holder,employeeName_key,2
+323,member of the workforce,employeeName_key,2
+325,name of labourer,employeeName_key,2
+326,name of workman,employeeName_key,2
+328,name of member of staff,employeeName_key,2
+329,name of hand,employeeName_key,2
+330,name of wage-earner,employeeName_key,2
+331,name of white-collar worker,employeeName_key,2
+332,name of blue-collar worker,employeeName_key,2
+333,name of hired hand,employeeName_key,2
+334,name of job-holder,employeeName_key,2
+335,name of member of the workforce,employeeName_key,2
+336,title of worker,employeeName_key,2
+337,title of labourer,employeeName_key,2
+338,title of workman,employeeName_key,2
+340,title of member of staff,employeeName_key,2
+341,title of hand,employeeName_key,2
+342,title of wage-earner,employeeName_key,2
+344,title of blue-collar worker,employeeName_key,2
+345,title of hired hand,employeeName_key,2
+346,title of job-holder,employeeName_key,2
+347,title of member of the workforce,employeeName_key,2
+348,nickname of worker,employeeName_key,2
+349,nickname of labourer,employeeName_key,2
+350,nickname of workman,employeeName_key,2
+351,nickname of staff member,employeeName_key,2
+353,nickname of hand,employeeName_key,2
+354,nickname of wage-earner,employeeName_key,2
+355,nickname of white-collar worker,employeeName_key,2
+356,nickname of blue-collar worker,employeeName_key,2
+357,nickname of hired hand,employeeName_key,2
+358,nickname of job-holder,employeeName_key,2
+359,nickname of member of the workforce,employeeName_key,2
+361,surname of labourer,employeeName_key,2
+362,surname of workman,employeeName_key,2
+364,surname of member of staff,employeeName_key,2
+366,surname of wage-earner,employeeName_key,2
+367,surname of white-collar worker,employeeName_key,2
+368,surname of blue-collar worker,employeeName_key,2
+369,surname of hired hand,employeeName_key,2
+370,surname of job-holder,employeeName_key,2
+371,surname of member of the workforce,employeeName_key,2
+372,banner of worker,employeeName_key,2
+373,banner of labourer,employeeName_key,2
+374,banner of workman,employeeName_key,2
+375,banner of staff member,employeeName_key,2
+376,banner of member of staff,employeeName_key,2
+378,banner of wage-earner,employeeName_key,2
+380,banner of blue-collar worker,employeeName_key,2
+381,banner of hired hand,employeeName_key,2
+382,banner of job-holder,employeeName_key,2
+383,banner of member of the workforce,employeeName_key,2
+385,moniker of labourer,employeeName_key,2
+386,moniker of workman,employeeName_key,2
+387,moniker of staff member,employeeName_key,2
+389,moniker of hand,employeeName_key,2
+390,moniker of wage-earner,employeeName_key,2
+391,moniker of white-collar worker,employeeName_key,2
+392,moniker of blue-collar worker,employeeName_key,2
+393,moniker of hired hand,employeeName_key,2
+395,moniker of member of the workforce,employeeName_key,2
+396,label of worker,employeeName_key,2
+398,label of workman,employeeName_key,2
+399,label of staff member,employeeName_key,2
+400,label of member of staff,employeeName_key,2
+402,label of wage-earner,employeeName_key,2
+403,label of white-collar worker,employeeName_key,2
+406,label of job-holder,employeeName_key,2
+407,label of member of the workforce,employeeName_key,2
+611,IC,IC_key,3
+612,Passport No,IC_key,3
+613,IC/Passport No,IC_key,3
+615,NRIC Number,IC_key,3
+616,MyKad Identity Number,IC_key,3
+617,MyKad Identity No,IC_key,3
+618,MyKad Identity,IC_key,3
+620,MyKad Number,IC_key,3
+622,your IC No:,IC_key,3
+624,your Passport No,IC_key,3
+625,your IC/Passport No,IC_key,3
+626,your NRIC No,IC_key,3
+628,your MyKad Identity Number,IC_key,3
+629,your MyKad Identity No,IC_key,3
+630,your MyKad Identity,IC_key,3
+632,your MyKad Number,IC_key,3
+633,your NRIC,IC_key,3
+634,document,IC_key,3
+635,documentation,IC_key,3
+637,identity card,IC_key,3
+638,paper,IC_key,3
+639,identification card,IC_key,3
+640,paper,IC_key,3
+641,identification card,IC_key,3
+642,certificate,IC_key,3
+643,evidence,IC_key,3
+644,exhibit,IC_key,3
+645,proof,IC_key,3
+646,witness,IC_key,3
+647,testimony,IC_key,3
+649,ID,IC_key,3
+650,validation,IC_key,3
+652,testimonial,IC_key,3
+653,your document,IC_key,3
+654,your documentation,IC_key,3
+656,your identity card,IC_key,3
+657,your paper,IC_key,3
+658,your identification card,IC_key,3
+660,your evidence,IC_key,3
+661,your exhibit,IC_key,3
+663,your witness,IC_key,3
+664,your testimony,IC_key,3
+667,your validation,IC_key,3
+668,your voucher,IC_key,3
+669,your testimonial,IC_key,3
+670,passport,IC_key,3
+673,ID,IC_key,3
+675,papers,IC_key,3
+676,visa,IC_key,3
+677,licence,IC_key,3
+678,travel,IC_key,3
+679,papers,IC_key,3
+680,laissez-passer,IC_key,3
+681,credentials,IC_key,3
+682,travel,IC_key,3
+685,authorizationUS,IC_key,3
+686,official,IC_key,3
+687,document,IC_key,3
+688,license,IC_key,3
+689,authorisationUK,IC_key,3
+691,safe-conduct,IC_key,3
+692,travel,IC_key,3
+693,document,IC_key,3
+694,warrant,IC_key,3
+695,ID,IC_key,3
+696,your passport,IC_key,3
+697,your card,IC_key,3
+698,your pass,IC_key,3
+700,your card,IC_key,3
+701,your papers,IC_key,3
+702,your visa,IC_key,3
+703,your licence,IC_key,3
+704,your travel,IC_key,3
+705,your papers,IC_key,3
+707,your credentials,IC_key,3
+708,your travel,IC_key,3
+709,your permit,IC_key,3
+710,your I.D.,IC_key,3
+711,your authorizationUS,IC_key,3
+712,your official,IC_key,3
+713,your document,IC_key,3
+714,your license,IC_key,3
+715,your authorisationUK,IC_key,3
+716,your permit,IC_key,3
+717,your safe-conduct,IC_key,3
+718,your travel,IC_key,3
+719,your document,IC_key,3
+722,Daifallah bin Muhaajir,employeeName_value,4
+723,Abdul Haleem bin Badruddeen,employeeName_value,4
+724,Abyad bin Taamir,employeeName_value,4
+725,Muaaid bin Awad,employeeName_value,4
+726,Amjad bin Yahya,employeeName_value,4
+727,Raja bin Shuib,employeeName_value,4
+729,Muhaajir bin Isaam,employeeName_value,4
+730,Bijaya bin Embong,employeeName_value,4
+731,Yaacob bin Baba,employeeName_value,4
+732,Jiwa bin Budi,employeeName_value,4
+734,Iyaad bin Rajaa,employeeName_value,4
+735,Sulung bin Tuah,employeeName_value,4
+737,Ahad bin Andika,employeeName_value,4
+738,Miqdaad bin Sirajuddeen,employeeName_value,4
+739,Aasim bin Mushtaaq,employeeName_value,4
+740,Anwar bin Hasan,employeeName_value,4
+741,Rabu bin Elias,employeeName_value,4
+742,Teh bin Bachok,employeeName_value,4
+743,Bulat bin Agung,employeeName_value,4
+744,Raashid bin Wajdi,employeeName_value,4
+745,Kamis bin Perang,employeeName_value,4
+746,Ridwaan bin Uthmaa N,employeeName_value,4
+747,Saif bin Faadi,employeeName_value,4
+748,Gana bin Kuning,employeeName_value,4
+749,Baba bin Johan,employeeName_value,4
+750,Jebat bin Desa,employeeName_value,4
+751,Sakeen bin Jaabir,employeeName_value,4
+752,Merdeka bin Awang,employeeName_value,4
+753,Andika bin Che,employeeName_value,4
+754,Izzat bin Luncai,employeeName_value,4
+755,Jawaad bin Ubaida,employeeName_value,4
+757,Elyas bin Bintang,employeeName_value,4
+759,Noah,employeeName_value,4
+761,Liam,employeeName_value,4
+765,Elijah,employeeName_value,4
+766,Sophia,employeeName_value,4
+767,Gold,employeeName_value,4
+768,Isabella,employeeName_value,4
+769,Lucas,employeeName_value,4
+770,Mia,employeeName_value,4
+772,Luna,employeeName_value,4
+773,Levi,employeeName_value,4
+774,Ezra,employeeName_value,4
+775,Mila,employeeName_value,4
+777,Sofia,employeeName_value,4
+778,Henry,employeeName_value,4
+779,Tan HaoWen,employeeName_value,4
+780,Jenny Tan,employeeName_value,4
+781,Felix Tan,employeeName_value,4
+782,Tan Shan AI (Shine),employeeName_value,4
+783,Tan Qian Nee,employeeName_value,4
+784,Alice Tan Pei Xuan,employeeName_value,4
+785,Lisaa Tan,employeeName_value,4
+786,Curbie Tan,employeeName_value,4
+787,Mei Yin Tan,employeeName_value,4
+788,Choyi Tan,employeeName_value,4
+789,LaySan Tan,employeeName_value,4
+790,Shwu Jie Tan,employeeName_value,4
+791,Tan Sallie,employeeName_value,4
+792,Angel Tan,employeeName_value,4
+795,Annee Tan,employeeName_value,4
+796,Tan Liyi,employeeName_value,4
+798,Tan Coyuen,employeeName_value,4
+799,Wai Tan (Lik Wei),employeeName_value,4
+800,Xi Rou Tan,employeeName_value,4
+801,Tan SinYi,employeeName_value,4
+804,Mily Kaishi Tan,employeeName_value,4
+805,Tan Chiewyen,employeeName_value,4
+806,Amber Tay,employeeName_value,4
+807,Alice Tay,employeeName_value,4
+809,Tay Gee Kang,employeeName_value,4
+811,Ashley Tay,employeeName_value,4
+812,Tay Gee Boon,employeeName_value,4
+813,Alex Tay,employeeName_value,4
+814,Tay Wei Jo,employeeName_value,4
+815,Rachel Tay,employeeName_value,4
+816,Tay Ying Cheng,employeeName_value,4
+817,Tay Zhou He,employeeName_value,4
+818,Tay Kim Hui,employeeName_value,4
+819,Tay Ai Ting,employeeName_value,4
+820,Jesnny Tay,employeeName_value,4
+821,Sandyy Tay,employeeName_value,4
+823,Xiuye Tay,employeeName_value,4
+824,Chan Peien,employeeName_value,4
+825,Wei Soon Chan,employeeName_value,4
+826,Ah Chan,employeeName_value,4
+827,Chan Suei,employeeName_value,4
+828,Chan Rou Shean,employeeName_value,4
+829,Angel Chan,employeeName_value,4
+831,Cristy Chan,employeeName_value,4
+832,Chan Ka Loong,employeeName_value,4
+833,Zhen Ru Chan,employeeName_value,4
+834,Chan YuHarn,employeeName_value,4
+836,Vivian Chan,employeeName_value,4
+839,Rix Chan,employeeName_value,4
+840,Ellaine Chan,employeeName_value,4
+841,Chan Yujing,employeeName_value,4
+842,Chan Wei Tar,employeeName_value,4
+843,Chan Weiking,employeeName_value,4
+844,Chan Shin Yi,employeeName_value,4
+845,Chan Yankang,employeeName_value,4
+848,Chan Chee Choy,employeeName_value,4
+849,Zhiling Chan,employeeName_value,4
+851,Chan Jie Jye,employeeName_value,4
+852,Alson Chan,employeeName_value,4
+853,Evian Chan,employeeName_value,4
+854,Celina Chan,employeeName_value,4
+855,Amy Chan,employeeName_value,4
+856,Yuan Xin Chan,employeeName_value,4
+857,KahBee Chan,employeeName_value,4
+858,Jenny Chan,employeeName_value,4
+860,Chan SY,employeeName_value,4
+861,Zhi Shan Chan,employeeName_value,4
+862,Chan Tin Chuan,employeeName_value,4
+863,Fan Fu Chan,employeeName_value,4
+864,Jacklyn Chan,employeeName_value,4
+865,Chan Mun Tuck,employeeName_value,4
+867,Chan Jack,employeeName_value,4
+868,Jie Yin Chan,employeeName_value,4
+869,Susam Chan,employeeName_value,4
+870,Xiiao Chan,employeeName_value,4
+871,Ziwen Chan,employeeName_value,4
+872,Loveu Chan,employeeName_value,4
+874,Chan Fan,employeeName_value,4
+875,Xiiao Chan,employeeName_value,4
+877,Jack Chan,employeeName_value,4
+878,Li Khim Chan,employeeName_value,4
+879,Ja Ee Chan,employeeName_value,4
+880,Weng Fu Chan,employeeName_value,4
+881,Chan Fatt,employeeName_value,4
+882,Chan Koon Liang,employeeName_value,4
+885,Kar Yee Chan,employeeName_value,4
+886,Eunice Chan,employeeName_value,4
+888,Ehuang Chan,employeeName_value,4
+889,Chan Wei Lun,employeeName_value,4
+890,Josyee Chan,employeeName_value,4
+893,Billy Chan,employeeName_value,4
+895,Xian Kai Chan,employeeName_value,4
+896,Weng Yew Chan,employeeName_value,4
+897,Jianhao Chan,employeeName_value,4
+898,Terry Chan,employeeName_value,4
+899,Junhong Chan,employeeName_value,4
+900,Xin Yan Chan,employeeName_value,4
+901,Chan Ming Hui,employeeName_value,4
+904,Noah,employeeName_value,4
+905,James,employeeName_value,4
+907,Connor,employeeName_value,4
+908,Liam,employeeName_value,4
+909,John,employeeName_value,4
+910,Harry,employeeName_value,4
+911,Callum,employeeName_value,4
+912,Mason,employeeName_value,4
+914,Michael,employeeName_value,4
+915,Charlie,employeeName_value,4
+917,William,employeeName_value,4
+919,Margaret,employeeName_value,4
+923,Samantha,employeeName_value,4
+926,Isla,employeeName_value,4
+927,Bethany,employeeName_value,4
+928,Sophia,employeeName_value,4
+931,payslip date,payDate_key,5
+932,payslip for,payDate_key,5
+933,payslip :,payDate_key,5
+934,Date of payment,payDate_key,5
+935,pay period,payDate_key,5
+936,payslip for the period of,payDate_key,5
+937,period ended,payDate_key,5
+938,Date,payDate_key,5
+939,Payment Date,payDate_key,5
+940,Period ,payDate_key,5
+941,Payslip Month:,payDate_key,5
+942,Month,payDate_key,5
+943,term of payment,payDate_key,5
+944,maturity date,payDate_key,5
+946,maturity,payDate_key,5
+949,date for payment,payDate_key,5
+950,date for the payment,payDate_key,5
+951,date of disbursement,payDate_key,5
+952,date of receipt,payDate_key,5
+953,date of the payment,payDate_key,5
+954,date of transaction,payDate_key,5
+955,date on which payment,payDate_key,5
+958,dates for the payment,payDate_key,5
+959,dates of payment,payDate_key,5
+961,deadline for payment,payDate_key,5
+962,moment of payment,payDate_key,5
+963,moment of the payment,payDate_key,5
+964,pay date,payDate_key,5
+965,pay day,payDate_key,5
+966,your payslip date,payDate_key,5
+967,your payslip for,payDate_key,5
+968,your payslip :,payDate_key,5
+969,your Date of payment,payDate_key,5
+970,your pay period,payDate_key,5
+971,your payslip for the period of,payDate_key,5
+972,your period ended,payDate_key,5
+974,your Payment Date,payDate_key,5
+975,your Period,payDate_key,5
+976,your Payslip Month:,payDate_key,5
+978,your term of payment,payDate_key,5
+979,your maturity date,payDate_key,5
+981,your maturity,payDate_key,5
+985,your date for the payment,payDate_key,5
+987,your date of receipt,payDate_key,5
+988,your date of the payment,payDate_key,5
+989,your date of transaction,payDate_key,5
+990,your date on which payment,payDate_key,5
+991,your date paid,payDate_key,5
+992,your dates for payment,payDate_key,5
+996,your deadline for payment,payDate_key,5
+997,your moment of payment,payDate_key,5
+998,your moment of the payment,payDate_key,5
+999,your pay date,payDate_key,5
+1000,your pay day,payDate_key,5
+1001,month of  payslip date,payDate_key,5
+1002,month of  payslip for,payDate_key,5
+1003,month of  payslip :,payDate_key,5
+1004,month of  Date of payment,payDate_key,5
+1005,month of  pay period,payDate_key,5
+1006,month of  payslip for the period of,payDate_key,5
+1008,month of  Date,payDate_key,5
+1009,month of  Payment Date,payDate_key,5
+1010,month of  Period,payDate_key,5
+1012,month of  Month,payDate_key,5
+1013,month of  term of payment,payDate_key,5
+1014,month of  maturity date,payDate_key,5
+1015,month of  date of payment,payDate_key,5
+1016,month of  maturity,payDate_key,5
+1017,month of  period of payment,payDate_key,5
+1018,month of  at the time of payment,payDate_key,5
+1019,month of  date for payment,payDate_key,5
+1020,month of  date for the payment,payDate_key,5
+1021,month of  date of disbursement,payDate_key,5
+1022,month of  date of receipt,payDate_key,5
+1025,month of  date on which payment,payDate_key,5
+1026,month of  date paid,payDate_key,5
+1027,month of  dates for payment,payDate_key,5
+1028,month of  dates for the payment,payDate_key,5
+1029,month of  dates of payment,payDate_key,5
+1030,month of  day of payment,payDate_key,5
+1031,month of  deadline for payment,payDate_key,5
+1032,month of  moment of payment,payDate_key,5
+1034,month of  pay date,payDate_key,5
+1035,month of  pay day,payDate_key,5
+1036,Jan 2019,payDate_value,6
+1037,Nov 2021,payDate_value,6
+1038,25 Mar 2020,payDate_value,6
+1039,May-2019,payDate_value,6
+1041,January 2020,payDate_value,6
+1042,August 2021,payDate_value,6
+1043,November 2012,payDate_value,6
+1044,13-Jan-12,payDate_value,6
+1045,08/07/2016,payDate_value,6
+1046,24/07/2006,payDate_value,6
+1047,07/30/2021,payDate_value,6
+1051,01-06-2018,payDate_value,6
+1052,February 2016,payDate_value,6
+1053,06/01/2022,payDate_value,6
+1054,20/02/2022,payDate_value,6
+1055,25/02/2022,payDate_value,6
+1056,10/03/2022,payDate_value,6
+1057,21/06/2022,payDate_value,6
+1058,21/07/2022,payDate_value,6
+1059,04/08/2022,payDate_value,6
+1060,08/10/2022,payDate_value,6
+1061,12/10/2022,payDate_value,6
+1062,15/12/2022,payDate_value,6
+1065,2 April 1995,payDate_value,6
+1066,27 June 1995,payDate_value,6
+1067,2 April 2001,payDate_value,6
+1068,14 May 2001,payDate_value,6
+1069,28 June 2006,payDate_value,6
+1070,15 November 2017,payDate_value,6
+1071,15 November 2019,payDate_value,6
+1073,"August, 1999",payDate_value,6
+1074,"June, 2003",payDate_value,6
+1075,"August, 2002",payDate_value,6
+1076,"July, 2006",payDate_value,6
+1079,"December, 2008",payDate_value,6
+1080,"December, 2009",payDate_value,6
+1081,"December, 2018",payDate_value,6
+1083,"February, 2007",payDate_value,6
+1084,"February, 2006",payDate_value,6
+1085,"November, 2020",payDate_value,6
+1086,"November, 2015",payDate_value,6
+1088,Jan 1997,payDate_value,6
+1089,Feb 2017,payDate_value,6
+1091,Apr 2019,payDate_value,6
+1092,May 2020,payDate_value,6
+1094,Jul 2022,payDate_value,6
+1095,Aug 2023,payDate_value,6
+1099,Dec 2012,payDate_value,6
+1100,25-11-1978,payDate_value,6
+1101,04-04-1962,payDate_value,6
+1102,22-06-1981,payDate_value,6
+1103,29-05-1977,payDate_value,6
+1104,21-09-1985,payDate_value,6
+1106,25-06-1980,payDate_value,6
+1107,02-03-2087,payDate_value,6
+1108,13-06-1999,payDate_value,6
+1109,05-04-1979,payDate_value,6
+1110,10-01-2024,payDate_value,6
+1111,24-01-1987,payDate_value,6
+1112,10-01-2080,payDate_value,6
+1113,24-10-1975,payDate_value,6
+1114,22-10-2053,payDate_value,6
+1115,02-06-1993,payDate_value,6
+1117,10-05-1907,payDate_value,6
+1118,17-07-1971,payDate_value,6
+1119,07-04-1931,payDate_value,6
+1120,26-06-2006,payDate_value,6
+1121,30-01-1951,payDate_value,6
+1122,15-05-1930,payDate_value,6
+1123,10-12-1910,payDate_value,6
+1124,12-08-1912,payDate_value,6
+1126,13-11-2043,payDate_value,6
+1127,28-07-1901,payDate_value,6
+1128,03-03-2055,payDate_value,6
+1130,25-08-1995,payDate_value,6
+1131,22-08-1973,payDate_value,6
+1132,24-12-2024,payDate_value,6
+1133,15-10-1988,payDate_value,6
+1134,27-07-1960,payDate_value,6
+1135,02-06-1970,payDate_value,6
+1136,02-01-2020,payDate_value,6
+1138,18-09-1923,payDate_value,6
+1139,28-06-2007,payDate_value,6
+1140,net pay,netPay_key,7
+1141,net salary YTD,netPay_key,7
+1142,net salary,netPay_key,7
+1144,nett amount,netPay_key,7
+1145,nett amount(RM),netPay_key,7
+1146,net income,netPay_key,7
+1147,end month pay,netPay_key,7
+1149,pay,netPay_key,7
+1150,net,netPay_key,7
+1152,payment,netPay_key,7
+1153,wages,netPay_key,7
+1154,earned income,netPay_key,7
+1155,end month salary,netPay_key,7
+1156, end month net income,netPay_key,7
+1157,end month wages,netPay_key,7
+1159,end month net amount,netPay_key,7
+1160,end month net salary,netPay_key,7
+1161,end month amount,netPay_key,7
+1162,end month netpay,netPay_key,7
+1163,end month net amount,netPay_key,7
+1165, end month pay,netPay_key,7
+1167,end month earned income,netPay_key,7
+1168,your pay,netPay_key,7
+1169,your income ,netPay_key,7
+1170,your wages,netPay_key,7
+1171,your payment,netPay_key,7
+1172,your earning ,netPay_key,7
+1173,your net income,netPay_key,7
+1174,your salary,netPay_key,7
+1175,your net amount,netPay_key,7
+1176,paying,netPay_key,7
+1177,paid,netPay_key,7
+1178,monthly net pay,netPay_key,7
+1180,monthly net salary,netPay_key,7
+1181,monthly netpay,netPay_key,7
+1182,monthly nett amount,netPay_key,7
+1184,monthly net income,netPay_key,7
+1185,monthly end month pay,netPay_key,7
+1186,monthly salary ,netPay_key,7
+1188,monthly net,netPay_key,7
+1189,monthly earning,netPay_key,7
+1190,monthly payment,netPay_key,7
+1191,monthly wages,netPay_key,7
+1193,monthly your income ,netPay_key,7
+1194,monthly your wages,netPay_key,7
+1195,monthly your payment,netPay_key,7
+1198,monthly your salary,netPay_key,7
+1199,monthly your net amount,netPay_key,7
+1200,monthly paying,netPay_key,7
+1201,monthly paid,netPay_key,7
+1202,take-home pay,netPay_key,7
+1204,net earnings.,netPay_key,7
+1205,net wages.,netPay_key,7
+1206,real wages.,netPay_key,7
+1207,take-home.,netPay_key,7
+1208,take-home income.,netPay_key,7
+1210,wages after taxes.,netPay_key,7
+1211,monthly net income.,netPay_key,7
+1212,monthly net earnings.,netPay_key,7
+1213,monthly net wages.,netPay_key,7
+1216,monthly take-home income.,netPay_key,7
+1218,monthly wages after taxes.,netPay_key,7
+1219,net income,netPay_key,7
+1220,net salary,netPay_key,7
+1221,pay envelope,netPay_key,7
+1222,pay packet,netPay_key,7
+1223,after-tax income,netPay_key,7
+1224,net earnings,netPay_key,7
+1226,net wages,netPay_key,7
+1227,real wages,netPay_key,7
+1228,take-home,netPay_key,7
+1229,take-home income,netPay_key,7
+1230,taxable income,netPay_key,7
+1231,wages after taxes,netPay_key,7
+1232,your take-home pay,netPay_key,7
+1233,your net income.,netPay_key,7
+1235,your taxable income.,netPay_key,7
+1237,your wages after taxes.,netPay_key,7
+1238,88.9,netPay_value,8
+1239,RM 880.00,netPay_value,8
+1240,29985.03,netPay_value,8
+1241,GHC 234.00,netPay_value,8
+1242,Nine Thousand Five Hundred,netPay_value,8
+1243,9500,netPay_value,8
+1244,503,netPay_value,8
+1245,292.69,netPay_value,8
+1246,558,netPay_value,8
+1247,$939.50,netPay_value,8
+1249,Four Thousand Seven Hundred Ringgit,netPay_value,8
+1252,Ten Thousand,netPay_value,8
+1256,"fifty-five thousand, seven hundred eleven",netPay_value,8
+1257,"fifty-five thousand, seven hundred eighty-nine",netPay_value,8
+1258,"fifty-five thousand, eight hundred sixty-seven",netPay_value,8
+1260,"fifty-six thousand, twenty-three",netPay_value,8
+1261,"fifty-six thousand, one hundred one",netPay_value,8
+1262,"fifty-six thousand, one hundred seventy-nine",netPay_value,8
+1263,"fifty-six thousand, two hundred fifty-seven",netPay_value,8
+1264,"fifty-six thousand, three hundred thirty-five",netPay_value,8
+1265,"fifty-six thousand, four hundred thirteen",netPay_value,8
+1266,"fifty-six thousand, four hundred ninety-one",netPay_value,8
+1267,"fifty-six thousand, five hundred sixty-nine",netPay_value,8
+1268,"fifty-six thousand, six hundred forty-seven",netPay_value,8
+1269,"fifty-six thousand, seven hundred twenty-five",netPay_value,8
+1271,"fifty-six thousand, eight hundred eighty-one",netPay_value,8
+1272,"fifty-six thousand, nine hundred fifty-nine",netPay_value,8
+1273,"fifty-seven thousand, thirty-seven",netPay_value,8
+1276,"fifty-seven thousand, two hundred seventy-one",netPay_value,8
+1277,"fifty-seven thousand, three hundred forty-nine",netPay_value,8
+1278,"fifty-seven thousand, four hundred twenty-seven",netPay_value,8
+1280,"fifty-seven thousand, five hundred eighty-three",netPay_value,8
+1282,"fifty-seven thousand, seven hundred thirty-nine",netPay_value,8
+1283,"fifty-seven thousand, eight hundred seventeen",netPay_value,8
+1284,"fifty-seven thousand, eight hundred ninety-five",netPay_value,8
+1287,"fifty-eight thousand, one hundred twenty-nine",netPay_value,8
+1288,"fifty-eight thousand, two hundred seven",netPay_value,8
+1290,"fifty-eight thousand, three hundred sixty-three",netPay_value,8
+1291,"fifty-eight thousand, four hundred forty-one",netPay_value,8
+1292,"fifty-eight thousand, five hundred nineteen",netPay_value,8
+1293,"fifty-eight thousand, five hundred ninety-seven",netPay_value,8
+1294,"fifty-eight thousand, six hundred seventy-five",netPay_value,8
+1295,"fifty-eight thousand, seven hundred fifty-three",netPay_value,8
+1296,"fifty-eight thousand, eight hundred thirty-one",netPay_value,8
+1297,"fifty-eight thousand, nine hundred nine",netPay_value,8
+1298,"$4,545",netPay_value,8
+1299,£ 12312,netPay_value,8
+1300,₮ 123123,netPay_value,8
+1301,NT$ 1234126,netPay_value,8
+1302,"€1,234,567",netPay_value,8
+1304,kr 124587,netPay_value,8
+1305,¥ 41575,netPay_value,8
+1306,3332.45,netPay_value,8
+1307,7513.3,netPay_value,8
+1308,5566.41,netPay_value,8
+1309,1716.24,netPay_value,8
+1310,347.81,netPay_value,8
+1311,2264.75,netPay_value,8
+1312,7154.06,netPay_value,8
+1313,9900.05,netPay_value,8
+1314,2791.94,netPay_value,8
+1315,2388.32,netPay_value,8
+1316,8316.17,netPay_value,8
+1317,5207.84,netPay_value,8
+1318,583.84,netPay_value,8
+1319,7383.89,netPay_value,8
+1321,3689.79,netPay_value,8
+1322,456.46,netPay_value,8
+1323,945.75,netPay_value,8
+1324,2513.12,netPay_value,8
+1325,8284.14,netPay_value,8
+1326,9217.43,netPay_value,8
+1328,3695.4,netPay_value,8
+1329,9035.93,netPay_value,8
+1331,6039.38,netPay_value,8
+1333,6284.97,netPay_value,8
+1334,7143.04,netPay_value,8
+1335,2705.53,netPay_value,8
+1336,2473.59,netPay_value,8
+1337,689.47,netPay_value,8
+1338,6919.56,netPay_value,8
+1340,4808.52,netPay_value,8
+1341,1721.88,netPay_value,8
+1342,4881.58,netPay_value,8
+1343,2411.78,netPay_value,8
+1344,6469.09,netPay_value,8
+1347,Payment Method,reject,9
+1348,Tax Code,reject,9
+1349,NI Number,reject,9
+1350,NI Table Letter,reject,9
+1351,Taxable Gross Pay,reject,9
+1352,Income Tax,reject,9
+1353,Ref,reject,9
+1354,Address,reject,9
+1355,Insurance,reject,9
+1356,Loan,reject,9
+1358,Basic Pay,reject,9
+1359,Standard Rate,reject,9
+1360,Pay Type,reject,9
+1361,Hours,reject,9
+1363,Registered Number,reject,9
+1364,Week Day Overtime,reject,9
+1365,Saturday Overtime,reject,9
+1366,TOTAL PAYMENTS,reject,9
+1370,Description,reject,9
+1371,Units,reject,9
+1373,TAXABLE PAY TO DATE,reject,9
+1375,EE PENSION TO DATE,reject,9
+1376,ER PENSION TO DATE,reject,9
+1378,ER's N.I. TO DATE,reject,9
+1379,EE's N.I. TO DATE,reject,9
+1380,Company IRD Number,reject,9
+1381,Department,reject,9
+1382,Occupation,reject,9
+1383,IRD Number,reject,9
+1384,Wages Hours Rate,reject,9
+1385,Total Wages,reject,9
+1386,Gross Taxable Earnings,reject,9
+1387,PAYE,reject,9
+1388,Total Non-Taxable Allowances,reject,9
+1389,Paid Cash,reject,9
+1391,Holiday Pay,reject,9
+1392,Regular wages,reject,9
+1393,Gross pay,reject,9
+1394,Base Hourly,reject,9
+1395,Total Overtime,reject,9
+1396,Total Claim,reject,9
+1397,Commission,reject,9
+1399,EPF Employer,reject,9
+1400,Position,reject,9
+1401,EPF No,reject,9
+1404,Bank AC No,reject,9
+1406,Income Amount,reject,9
+1408,BASIC PAY,reject,9
+1409,Employee EPF,reject,9
+1410,sss,reject,9
+1411,sssec,reject,9
+1412,SSS Employer,reject,9
+1413,Laundry Allowance,reject,9
+1414,Mandatory Deduction,reject,9
+1415,Mandatory Deduction,reject,9
+1416,Clothing Alowance,reject,9
+1417,Medical Dependents,reject,9
+1418,Medical Allowance,reject,9
+1419,Rice Allowance,reject,9
+1420,Unit Rate Total,reject,9
+1421,Taxation (PAYG),reject,9
+1422,Advance,reject,9
+1423,CTC Per Month,reject,9
+1424,House Rent Allowance,reject,9
+1425,Profession Tax,reject,9
+1426,Leave Deductions,reject,9
+1427,Security Deposite,reject,9
+1428,Tel,reject,9
+1431,Reg.No,reject,9
+1432,UIF Number,reject,9
+1434,Gross income,reject,9
+1435,Annual Leave,reject,9
+1436,Balance,reject,9
+1437,National insurance Number,reject,9
+1438,National insurance Category,reject,9
+1440,Employer Contributions,reject,9
+1443,Gross Pay To Date,reject,9
+1444,Gross Pay for Tax To Date,reject,9
+1445,Traveling allowance,reject,9
+1446,Contribution,reject,9
+1448,780822-EF-1159,IC_value,10
+1450,801218-UV-8921,IC_value,10
+1451,491219-AQ-8510,IC_value,10
+1452,160925-WE-2105,IC_value,10
+1453,630202-VF-3338,IC_value,10
+1455,411213-KD-0561,IC_value,10
+1456,770407-UG-1730,IC_value,10
+1459,480421-OZ-8436,IC_value,10
+1460,571118-TS-1033,IC_value,10
+1463,740526-ZG-4261,IC_value,10
+1464,570618-BS-8727,IC_value,10
+1465,770213-CC-2424,IC_value,10
+1466,600122-BL-8887,IC_value,10
+1467,541126-ZB-6809,IC_value,10
+1468,620801-FP-9802,IC_value,10
+1469,720526-JF-1056,IC_value,10
+1470,771219-SP-1507,IC_value,10
+1471,610613-EU-9663,IC_value,10
+1472,410518-DF-3189,IC_value,10
+1473,140827-MY-5520,IC_value,10
+1474,870312-WO-0795,IC_value,10
+1475,140407-KS-8713,IC_value,10
+1476,720218-DM-4050,IC_value,10
+1477,920514-ZR-2248,IC_value,10
+1478,450725-HK-4905,IC_value,10
+1480,780307-QG-2095,IC_value,10
+1481,530501-NZ-0339,IC_value,10
+1482,691021-GZ-1028,IC_value,10
+1484,600107-SJ-3208,IC_value,10
+1485,521016-EJ-3781,IC_value,10
+1486,921003-UK-1771,IC_value,10
+1487,410621-ZW-0348,IC_value,10
+1488,450108-WZ-5319,IC_value,10
+1489,070908-CB-8020,IC_value,10
+1490,921217-XS-0739,IC_value,10
+1492,600520-QP-9294,IC_value,10
+1493,000320-MA-1748,IC_value,10
+1494,740612-QA-4361,IC_value,10
+1495,710822-ZC-1296,IC_value,10
+1496,830126-XW-5111,IC_value,10
+1497,601012-AG-6807,IC_value,10
+1498,400221-LJ-8795,IC_value,10
+1499,101018-LZ-5969,IC_value,10
+1500,960117-CG-2257,IC_value,10
+1501,941004-TA-0026,IC_value,10
+1503,400613-JE-9827,IC_value,10
+1504,150312-WO-1448,IC_value,10
+1505,050418-BO-2756,IC_value,10
+1506,660228-BY-2036,IC_value,10
+1507,750308-AH-7542,IC_value,10
+1509,101225-EN-1076,IC_value,10
+1510,710711-JY-9482,IC_value,10
+1511,510123-GK-3425,IC_value,10
+1512,031129-NA-1949,IC_value,10
+1513,940506-HQ-4403,IC_value,10
+1515,780215-OU-8219,IC_value,10
+1516,510822-ZG-9517,IC_value,10
+1517,881023-CM-6313,IC_value,10
+1518,591021-DU-0352,IC_value,10
+1519,790305-QY-0508,IC_value,10
+1520,070607-FH-3382,IC_value,10
+1522,060428-KB-5064,IC_value,10
+1524,531019-EN-5180,IC_value,10
+1525,570410-AD-8760,IC_value,10
+1528,930423-DX-9145,IC_value,10
+1529,100720-WB-0952,IC_value,10
+1531,810303-UY-4216,IC_value,10
+1532,110622-ZT-6944,IC_value,10
+1533,760129-MH-6014,IC_value,10
+1535,800208-JP-8060,IC_value,10
+1536,871210-HU-8965,IC_value,10
+1538,060412-TK-7623,IC_value,10
+1539,000523-KW-8729,IC_value,10
+1540,470711-LW-4979,IC_value,10
+1541,801027-TC-6424,IC_value,10
+1542,550212-IM-0368,IC_value,10
+1543,781202-IG-2171,IC_value,10
+1544,420930-FY-9534,IC_value,10
+1546,811112-TO-7494,IC_value,10
+1547,100330-UZ-1810,IC_value,10
+1548,880312-CG-6094,IC_value,10
+1549,180910-WS-4475,IC_value,10
+1550,710908-NM-0341,IC_value,10
+1551,070208-TY-1849,IC_value,10
+1552,030204-MK-6127,IC_value,10
+1554,950127-II-5689,IC_value,10

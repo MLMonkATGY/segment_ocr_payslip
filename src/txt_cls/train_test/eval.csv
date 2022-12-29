@@ -1,0 +1,272 @@
+,text,label,label_id
+662,your proof,IC_key,3
+706,your laissez-passer,IC_key,3
+655,your identification,IC_key,3
+623,your IC,IC_key,3
+651,voucher,IC_key,3
+619,MyKad No,IC_key,3
+627,your NRIC Number,IC_key,3
+699,your ID,IC_key,3
+683,permit,IC_key,3
+636,identification,IC_key,3
+631,your MyKad No,IC_key,3
+621,NRIC,IC_key,3
+672,pass,IC_key,3
+614,NRIC No,IC_key,3
+665,your confirmation,IC_key,3
+648,confirmation,IC_key,3
+671,card,IC_key,3
+666,your ID,IC_key,3
+720,your warrant,IC_key,3
+610,IC No:,IC_key,3
+684,I.D.,IC_key,3
+659,your certificate,IC_key,3
+1454,610613-NT-3251,IC_value,10
+1514,800721-FB-1170,IC_value,10
+1457,551013-OO-3994,IC_value,10
+1462,970512-MZ-7114,IC_value,10
+1537,590630-EC-1416,IC_value,10
+1530,710220-CC-1813,IC_value,10
+1483,570507-LA-8571,IC_value,10
+1523,131210-FI-9179,IC_value,10
+1449,520213-AC-8758,IC_value,10
+1508,151220-RQ-1510,IC_value,10
+1526,011014-PO-8599,IC_value,10
+1458,660917-KS-5912,IC_value,10
+1461,600519-EA-0714,IC_value,10
+1527,150416-BB-6008,IC_value,10
+1447,830805-DB-4983,IC_value,10
+1553,681227-ZD-9085,IC_value,10
+1545,600417-DF-2149,IC_value,10
+1534,670506-ZP-6657,IC_value,10
+1521,110302-OR-1409,IC_value,10
+1479,850225-DX-0682,IC_value,10
+1502,400304-GM-3090,IC_value,10
+1491,761025-MM-7667,IC_value,10
+170,industry,companyName_key,1
+256,name of trust,companyName_key,1
+115,business name,companyName_key,1
+212,origination,companyName_key,1
+226,name of operation,companyName_key,1
+165,franchise,companyName_key,1
+176,ring,companyName_key,1
+252,name of franchise,companyName_key,1
+178,guild,companyName_key,1
+163,cooperative,companyName_key,1
+174,cartel,companyName_key,1
+206,institute,companyName_key,1
+198,unit,companyName_key,1
+278,name of desk,companyName_key,1
+117,From:,companyName_key,1
+191,desk,companyName_key,1
+126,name of firm,companyName_key,1
+132,corporation,companyName_key,1
+195,charity,companyName_key,1
+227,name of organisationUK,companyName_key,1
+272,name of gang,companyName_key,1
+127,firm,companyName_key,1
+217,name of house,companyName_key,1
+279,name of parent,companyName_key,1
+142,association,companyName_key,1
+109,agency name,companyName_key,1
+298,name of undertaking,companyName_key,1
+124,name of corporation,companyName_key,1
+243,name of undertaking,companyName_key,1
+105,establishment,companyName_key,1
+193,company,companyName_key,1
+261,name of cartel,companyName_key,1
+186,bunch,companyName_key,1
+129,establishment,companyName_key,1
+112,enterprise name,companyName_key,1
+292,name of emporium,companyName_key,1
+216,name of establishment,companyName_key,1
+141,organizationUS,companyName_key,1
+219,name of corporation,companyName_key,1
+284,name of factory,companyName_key,1
+36,Honest Advisors PLT,companyName_value,0
+91,Puzzle Huddle Sdn Bhd,companyName_value,0
+57,Sage Investors Sdn Bhd,companyName_value,0
+3,Dwellsmith,companyName_value,0
+24,InvestSpend,companyName_value,0
+60,Plain Strategies Sdn Bhd,companyName_value,0
+49,Standard Capital PLT,companyName_value,0
+2,SecureSmarter,companyName_value,0
+52,Effortless Corporation PLT,companyName_value,0
+75,Willing Company Sdn Bhd,companyName_value,0
+63,Exciting Private Sdn Bhd,companyName_value,0
+14,Rentoor,companyName_value,0
+25,Deductly,companyName_value,0
+30,SecuriToday PLT,companyName_value,0
+76,Easygoing Advisors Sdn Bhd,companyName_value,0
+88,Compass Mortgage Sdn Bhd,companyName_value,0
+64,Lavish Investment Sdn Bhd,companyName_value,0
+7,Cloudrevel,companyName_value,0
+84,Flirty Strategies Sdn Bhd,companyName_value,0
+28,Legal Right PLT,companyName_value,0
+404,label of blue-collar worker,employeeName_key,2
+343,title of white-collar worker,employeeName_key,2
+405,label of hired hand,employeeName_key,2
+301,First Names,employeeName_key,2
+303,employee Name,employeeName_key,2
+305,name,employeeName_key,2
+363,surname of staff member,employeeName_key,2
+379,banner of white-collar worker,employeeName_key,2
+397,label of labourer,employeeName_key,2
+327,name of staff member,employeeName_key,2
+339,title of staff member,employeeName_key,2
+377,banner of hand,employeeName_key,2
+352,nickname of member of staff,employeeName_key,2
+388,moniker of member of staff,employeeName_key,2
+324,name of worker,employeeName_key,2
+384,moniker of worker,employeeName_key,2
+365,surname of hand,employeeName_key,2
+394,moniker of job-holder,employeeName_key,2
+313,labourer,employeeName_key,2
+401,label of hand,employeeName_key,2
+360,surname of worker,employeeName_key,2
+846,Alice Chan,employeeName_value,4
+903,Jake,employeeName_value,4
+808,Gee Xuan Tay,employeeName_value,4
+797,Tan Haowen,employeeName_value,4
+887,Ray Chan,employeeName_value,4
+736,Misfar bin Badri,employeeName_value,4
+883,Chan Wai Yee,employeeName_value,4
+892,Taiqing Chan,employeeName_value,4
+873,Kindson Chan,employeeName_value,4
+835,Wei Jian Lim,employeeName_value,4
+918,Amelia,employeeName_value,4
+764,Ava,employeeName_value,4
+921,Mary,employeeName_value,4
+810,Niicole Tay (Niicole),employeeName_value,4
+894,Guo Jun Chan,employeeName_value,4
+822,Sritney Tay,employeeName_value,4
+913,Robert,employeeName_value,4
+733,Jaasir bin Saood,employeeName_value,4
+771,Mateo,employeeName_value,4
+760,Emma,employeeName_value,4
+728,Musheer bin Haatim,employeeName_value,4
+916,Kyle,employeeName_value,4
+876,Ernie Chan Fs,employeeName_value,4
+803,Tan Wei Henks,employeeName_value,4
+794,Tan Hong Thye,employeeName_value,4
+802,Jinhuang Tan,employeeName_value,4
+793,Elva Tan,employeeName_value,4
+837,Jiaxi Chan,employeeName_value,4
+850,Yoyo Chan,employeeName_value,4
+776,Aiden,employeeName_value,4
+756,Selasa bin Yaakop,employeeName_value,4
+906,Jack,employeeName_value,4
+763,Oliver,employeeName_value,4
+922,Olivia,employeeName_value,4
+838,Anthony Chan,employeeName_value,4
+930,Jennifer,employeeName_value,4
+866,Chan Han Wee,employeeName_value,4
+847,Chan Jie Xuan,employeeName_value,4
+859,Kel Chan,employeeName_value,4
+830,Nancy Chan,employeeName_value,4
+925,Patricia,employeeName_value,4
+884,Selena Chan,employeeName_value,4
+1215,monthly take-home.,netPay_key,7
+1187,monthly pay,netPay_key,7
+1234,your real wages.,netPay_key,7
+1236,your take-home income,netPay_key,7
+1203,net income.,netPay_key,7
+1209,taxable income.,netPay_key,7
+1179,monthly net salary YTD,netPay_key,7
+1158,end month payment,netPay_key,7
+1148,salary ,netPay_key,7
+1143,netpay,netPay_key,7
+1192,monthly your pay,netPay_key,7
+1183,monthly nett amount(RM),netPay_key,7
+1166,end month payment,netPay_key,7
+1214,monthly real wages.,netPay_key,7
+1225,net income after deductions,netPay_key,7
+1196,monthly your earning ,netPay_key,7
+1217,monthly taxable income.,netPay_key,7
+1151,earning,netPay_key,7
+1197,monthly your net income,netPay_key,7
+1164,end month earning,netPay_key,7
+1320,3954.24,netPay_value,8
+1345,5022.84,netPay_value,8
+1255,"fifty-five thousand, six hundred thirty-three",netPay_value,8
+1286,"fifty-eight thousand, fifty-one",netPay_value,8
+1254,"fifty-five thousand, five hundred fifty-five",netPay_value,8
+1270,"fifty-six thousand, eight hundred three",netPay_value,8
+1250,Four thousand seven hundred sixty and 52/100 Dollars,netPay_value,8
+1281,"fifty-seven thousand, six hundred sixty-one",netPay_value,8
+1251,Four thousand seven hundred sixty,netPay_value,8
+1274,"fifty-seven thousand, one hundred fifteen",netPay_value,8
+1303,"€7,678",netPay_value,8
+1332,8710.16,netPay_value,8
+1248,Four Thousand Seven Hundred Dollars,netPay_value,8
+1289,"fifty-eight thousand, two hundred eighty-five",netPay_value,8
+1339,4435.03,netPay_value,8
+1253,Thirteen Thousand,netPay_value,8
+1327,3705.03,netPay_value,8
+1330,6558.41,netPay_value,8
+1275,"fifty-seven thousand, one hundred ninety-three",netPay_value,8
+1279,"fifty-seven thousand, five hundred five",netPay_value,8
+1259,"fifty-five thousand, nine hundred forty-five",netPay_value,8
+1285,"fifty-seven thousand, nine hundred seventy-three",netPay_value,8
+945,date of payment,payDate_key,5
+1011,month of  Payslip Month:,payDate_key,5
+982,your period of payment,payDate_key,5
+947,period of payment,payDate_key,5
+1033,month of  moment of the payment,payDate_key,5
+995,your day of payment,payDate_key,5
+956,date paid,payDate_key,5
+973,your Date,payDate_key,5
+980,your date of payment,payDate_key,5
+1024,month of  date of transaction,payDate_key,5
+994,your dates of payment,payDate_key,5
+983,your at the time of payment,payDate_key,5
+948,at the time of payment,payDate_key,5
+960,day of payment,payDate_key,5
+993,your dates for the payment,payDate_key,5
+986,your date of disbursement,payDate_key,5
+984,your date for payment,payDate_key,5
+977,your Month,payDate_key,5
+957,dates for payment,payDate_key,5
+1007,month of  period ended,payDate_key,5
+1023,month of  date of the payment,payDate_key,5
+1049,Dec 2020,payDate_value,6
+1098,Nov 2011,payDate_value,6
+1116,04-06-1917,payDate_value,6
+1097,Oct 2010,payDate_value,6
+1050,31 Jan 2021,payDate_value,6
+1090,Mar 2018,payDate_value,6
+1078,"September, 2011",payDate_value,6
+1040,Oct 2018,payDate_value,6
+1077,"November, 2010",payDate_value,6
+1093,Jun 2021,payDate_value,6
+1087,"July, 2013",payDate_value,6
+1082,"June, 2021",payDate_value,6
+1105,13-01-2060,payDate_value,6
+1048,22/2/2018,payDate_value,6
+1072,4 January 2021,payDate_value,6
+1125,09-06-1907,payDate_value,6
+1063,21 August 1980,payDate_value,6
+1064,18 August 1984,payDate_value,6
+1096,Sep 2024,payDate_value,6
+1129,06-05-1915,payDate_value,6
+1137,09-10-1915,payDate_value,6
+1441,Employer National Insurance,reject,9
+1430,Engagement Date,reject,9
+1377,TAX TO DATE,reject,9
+1368,Rate Amount,reject,9
+1357,Total Deductions,reject,9
+1429,Birth Date,reject,9
+1346,rejectName,reject,9
+1390,Paid Direct Credit,reject,9
+1403,SOCSO No,reject,9
+1398,Bonus,reject,9
+1374,Current Holiday Entitlement,reject,9
+1402,Bank,reject,9
+1367,Hourly Rate,reject,9
+1442,Deductions,reject,9
+1405,Income Tax No,reject,9
+1362,Rate,reject,9
+1369,Deduction Amount,reject,9
+1433,PcB,reject,9
+1372,GROSS TO DATE,reject,9
+1439,Gross Pay for Tax,reject,9

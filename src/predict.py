@@ -88,12 +88,14 @@ def simulate_request_remote():
 
 
 def sim_upload():
-    srcDir = "./raw_imgs/**.*"
+    import curl
+
+    srcDir = "/home/alextay96/Desktop/all_workspace/personal_workspace/segment_ocr_payslip/data/raw_imgs/**.*"
     allImgs = glob.glob(srcDir, recursive=True)
     for i in tqdm(allImgs):
-        resp = requests.post(
-            "http://0.0.0.0:8000/files", files={"myFile": open(i, "rb")}
-        )
+
+        resp = requests.post("http://0.0.0.0:8000/files", files={"myFile": ""})
+        curl.parse(resp)
         # predClsName, predNp = process(reqBatchText)
         respBody = resp.json()
         print(respBody)

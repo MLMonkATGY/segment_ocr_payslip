@@ -28,6 +28,12 @@ class Preprocessing:
         self.y_train = self.trainDf["label_id"]
         self.x_test = self.evalDf["text"]
         self.y_test = self.evalDf["label_id"]
+        self.clsNames = (
+            self.evalDf.groupby("label")[["label_id", "label"]]
+            .head(1)
+            .reset_index()
+            .sort_values(by="label_id")
+        )["label"].tolist()
         self.clsWeight = compute_class_weight(
             class_weight="balanced", classes=np.unique(self.y_test), y=self.y_test
         )
