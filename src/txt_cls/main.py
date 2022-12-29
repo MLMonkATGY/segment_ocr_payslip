@@ -103,6 +103,10 @@ class Execute:
 
         allAcc = []
         self.model = self.model.to(self.device)
+        """
+        1 Epoch = 1 round of all training set data trained
+        Here we trained the model for 200 Epoch 
+        """
         for epoch in range(args.epochs):
             t_accuracy = Accuracy(task="multiclass", num_classes=num_classes).to(
                 self.device
@@ -114,17 +118,27 @@ class Execute:
             self.model.to(self.device)
 
             for x_batch, y_batch in self.loader_training:
-
+                """
+                Get vectorised text representations
+                """
                 x = x_batch.type(torch.LongTensor)
                 y = y_batch.type(torch.LongTensor)
                 x = x.to(self.device)
                 y = y.to(self.device)
                 with autocast():
-                    y_pred = self.model(x)
-                    # y = y.view(-1, 1)
-                    loss = self.criterion(y_pred, y)
                     optimizer.zero_grad()
 
+                    """
+                    Forward pass text representation using model
+                    """
+                    y_pred = self.model(x)
+                    """
+                    Calculate Cross Entropy Loss between predicted and ground truth
+                    """
+                    loss = self.criterion(y_pred, y)
+                    """
+                    Update weights and bias in neural network using backpropagations
+                    """
                     loss.backward()
 
                     optimizer.step()
@@ -217,11 +231,20 @@ if __name__ == "__main__":
     args = parameter_parser()
 
     execute = Execute(args)
+    """
+    Start training for 200 epoch
+    """
     execute.train()
+    """
+    Compile model to binary
+    """
     model = execute.model.to(torch.device("cpu"))
     scriptModel = torch.jit.script(execute.model)
     with open("./script_model", "wb") as f:
         torch.jit.save(scriptModel, f)
+    """
+    End Export
+    """
     evalDf = pd.read_csv(
         "/home/alextay96/Desktop/all_workspace/personal_workspace/segment_ocr_payslip/data/train_test/eval.csv"
     )

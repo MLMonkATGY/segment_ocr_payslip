@@ -39,6 +39,9 @@ class Preprocessing:
         )
 
     def prepare_tokens(self):
+        """
+        Initialised tokenizers
+        """
         self.tokens = Tokenizer(
             num_words=self.max_words, filters="!#$%&()*+,:;<=>?@[\\]^_`{|}~"
         )
@@ -51,6 +54,9 @@ class Preprocessing:
         print(self.tokens)
 
     def sequence_to_token(self, x):
+        """
+        Convert string to numerical representations
+        """
         sequences = self.tokens.texts_to_sequences(x)
         b = sequence.pad_sequences(sequences, maxlen=self.max_len)
 
