@@ -137,6 +137,9 @@ class Execute:
             predictions = torch.stack(predictions)
             train_accuary = t_accuracy(predictions, trainGt)
             test_accuracy = e_acc(test_predictions, test_gt)
+            """
+            Evaluation Process
+            """
             if epoch % 50 == 0 or epoch == args.epochs - 1:
                 test_gt_np = test_gt.detach().cpu().numpy()
                 preds = test_predictions.argmax(1)

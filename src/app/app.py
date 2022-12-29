@@ -23,13 +23,22 @@ from PIL import Image
 import pytesseract
 import torch.nn.functional as F
 
+"""
+Initialise FastAPI Backend
+"""
 app = FastAPI()
 print(os.getcwd())
+"""
+Load trained AI model
+"""
 with open(
     "./src/app/script_model",
     "rb",
 ) as f:
     model = torch.jit.load(f)
+"""
+Load model tokenizer
+"""
 with open("./src/app/tokenizer.txt", "r") as f:
     ann = f.read()
 tokens = tokenizer_from_json(ann)
@@ -48,7 +57,7 @@ def get_cls_name_mapping():
     return mapping
 
 
-def process(input: List[str]):
+def classify(input: List[str]):
     model.eval()
     clsNameMappingCsv = "./src/app/cls_name_mapping.json"
     with open(clsNameMappingCsv, "r") as f:
@@ -75,12 +84,23 @@ def predict(req: InputReq):
     return {"predictions": predClsName, "prediction_ids": predNp}
 
 
-def segments(img: np.ndarray):
-
+def segmentAndOCR(img: np.ndarray):
+    """
+    Convert RGB 3 channel image to Grayscale image 1 channel
+    """
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    """
+    Threshold Grayscale image to binary image
+    """
     th, im_th = cv2.threshold(gray, 220, 255, cv2.THRESH_BINARY_INV)
     kernel = np.ones((2, 20), np.uint8)
+    """
+    Dilate image area with text
+    """
     dilation = cv2.dilate(im_th, kernel, iterations=1)
+    """
+    Perform connected components algorithms to separate segments
+    """
     output = cv2.connectedComponentsWithStats(dilation, 8, cv2.CV_32S)
     (numLabels, labels, stats, centroids) = output
     allDetectedText = []
@@ -107,8 +127,13 @@ def segments(img: np.ndarray):
         pil_image = Image.fromarray(roi)
         buf = BytesIO()
         pil_image.save(buf, format="JPEG")
-
+        """
+        2. Optical Character Recognition (OCR) : Convert segmented image to string
+        """
         imgText = pytesseract.image_to_string(pil_image, lang="eng")
+        """
+        Filter out text with length smaller than 3 and longer than 50
+        """
         if len(imgText.strip()) > 50 or len(imgText.strip()) < 3:
             continue
         allDetectedText.append(imgText.strip())
@@ -118,10 +143,23 @@ def segments(img: np.ndarray):
 
 @app.post("/files")
 def upload_img(myFile: bytes = File()):
+    """
+    Receive image as byte array
+    """
     imageRaw = np.asarray(bytearray(myFile), dtype="uint8")
+    """
+    Convert byte array to opencv image
+    """
     img = cv2.imdecode(imageRaw, cv2.IMREAD_COLOR)
-    allDetectedText = segments(img)
-    predClsName, predNp, selectedProb = process(allDetectedText)
+    """
+    1. Text Area Image Segmentations
+    2. Optical Character Recognition (OCR) : Convert segmented image to string
+    """
+    allDetectedText = segmentAndOCR(img)
+    """
+    3. Text classification
+    """
+    predClsName, predNp, selectedProb = classify(allDetectedText)
     df = pd.DataFrame(
         {
             "pred_cls": predClsName,
@@ -130,12 +168,22 @@ def upload_img(myFile: bytes = File()):
             "text": allDetectedText,
         }
     )
+    """
+    Select prediction with highest confidence / probability for each category
+    """
     df.sort_values(by="pred_proba", ascending=False, inplace=True)
     selectedDf = df.groupby("pred_cls").head(1)
+
     resp = selectedDf.to_json(orient="records")
     respJson = json.loads(resp)
+    """
+    Load response into json format
+    """
     return respJson
 
 
 if __name__ == "__main__":
+    """
+    start server with host connection and port number
+    """
     uvicorn.run(app, host="0.0.0.0", port=8000)
